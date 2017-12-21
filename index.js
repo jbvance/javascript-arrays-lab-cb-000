@@ -11,6 +11,4 @@ var destructivelyPrependKitten = name => kittens.unshift(name);
 
 var destructivelyRemoveLastKitten = () => kittens.pop();
 
-
 var destructivelyRemoveFirstKitten = () => return kittens.shift();
-
