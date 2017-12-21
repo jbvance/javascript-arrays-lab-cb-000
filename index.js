@@ -7,7 +7,7 @@ var destructivelyAppendKitten = name => {
   return kittens;
 };
 
-var destructivelyPrependKitten = (name) => {
+var destructivelyPrependKitten = name => {
   kittens.unshift(name);
   return kittens;
-}
+};
