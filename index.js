@@ -14,3 +14,5 @@ var destructivelyRemoveLastKitten = () => kittens.pop();
 var destructivelyRemoveFirstKitten = () => kittens.shift();
 
 var appendKitten = name => [...kittens, name];
+
+var prependKitten = (name) => [name, ...kittens]
