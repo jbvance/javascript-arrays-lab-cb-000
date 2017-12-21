@@ -17,4 +17,4 @@ var appendKitten = name => [...kittens, name];
 
 var prependKitten = name => [name, ...kittens];
 
-var removeLastKitten = () => arr.slice(0,arr.lenght - 1);
+var removeLastKitten = () => arr.slice(0,arr.length - 1);
