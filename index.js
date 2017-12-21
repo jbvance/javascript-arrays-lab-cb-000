@@ -19,4 +19,4 @@ var destructivelyRemoveLastKitten = () => {
 
 var destructivelyRemoveFirstKitten = () => {
   return kittens.shift();
-}
+};
